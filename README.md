@@ -8,9 +8,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 choco feature enable -n allowGlobalConfirmation
 
 # Development
-cinst dotnetcore-sdk netfx-4.7.1-devpack git tortoisegit docker-for-windows docker-compose nuget.commandline nugetpackageexplorer vscode nodejs postman docfx heidisql cygwin -y
+cinst dotnetcore-sdk netfx-4.7.1-devpack git tortoisegit docker-for-windows docker-compose nuget.commandline nugetpackageexplorer vscode nodejs postman docfx heidisql
 cinst visualstudio2017buildtools --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale ru-RU" -y
-cinst visualstudio2017-workload-netcoretools --package-parameters "--productId Microsoft.VisualStudio.Product.Community --channelId VisualStudio.15.Release --includeRecommended --includeOptional --passive --locale ru-RU" -y
 cinst visualstudio2017-workload-netweb --package-parameters "--productId Microsoft.VisualStudio.Product.Community --channelId VisualStudio.15.Release --includeRecommended --includeOptional --passive --locale ru-RU" -y
 # JetBrains
 cinst resharper-clt jetbrainstoolbox -y
