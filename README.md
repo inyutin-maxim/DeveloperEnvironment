@@ -9,12 +9,12 @@ choco feature enable -n allowGlobalConfirmation
 
 # Development
 cinst dotnetcore-sdk netfx-4.7.1-devpack git tortoisegit docker-for-windows docker-compose nuget.commandline nugetpackageexplorer vscode nodejs postman docfx heidisql
-cinst visualstudio2017buildtools --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale ru-RU" -y
+cinst visualstudio2017buildtools --package-parameters "--locale ru-RU" -y
 cinst visualstudio2017-workload-netweb --package-parameters "--productId Microsoft.VisualStudio.Product.Community --channelId VisualStudio.15.Release --includeRecommended --includeOptional --passive --locale ru-RU" -y
 # JetBrains
 cinst resharper-clt jetbrainstoolbox -y
 # Other
-cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram onedrive -y
+cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram onedrive notepadplusplus.install
 
 # Docker
 docker pull microsoft/mssql-server-windows-developer
