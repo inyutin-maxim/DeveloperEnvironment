@@ -10,18 +10,18 @@ choco feature enable -n allowGlobalConfirmation
 # Development
 cinst dotnetcore-sdk netfx-4.7.1-devpack git tortoisegit docker-for-windows docker-compose nuget.commandline nugetpackageexplorer vscode nodejs postman docfx heidisql
 # cinst visualstudio2017buildtools --package-parameters "--locale ru-RU" -y
-cinst visualstudio2017-workload-netweb --package-parameters "--productId Microsoft.VisualStudio.Product.Community --channelId VisualStudio.15.Release --includeRecommended --includeOptional --passive --locale ru-RU" -y
+# cinst visualstudio2017-workload-netweb --package-parameters "--productId Microsoft.VisualStudio.Product.Community --channelId VisualStudio.15.Release --includeRecommended --includeOptional --passive --locale ru-RU" -y
 cinst sql-server-express
 # JetBrains
 cinst resharper-clt jetbrainstoolbox -y
 # Other
-cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram onedrive notepadplusplus.install libreoffice-fresh
+cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram onedrive notepadplusplus.install libreoffice-fresh thunderbird adobereader
 
 # Docker
-docker pull microsoft/mssql-server-windows-developer
+# docker pull microsoft/mssql-server-windows-developer
 # docker pull microsoft/mssql-server-linux
-docker pull sebp/elk
-docker pull jetbrains/teamcity-server
-docker pull microsoft/aspnetcore
-docker pull microsoft/aspnetcore-build
+# docker pull sebp/elk
+# docker pull jetbrains/teamcity-server
+# docker pull microsoft/aspnetcore
+# docker pull microsoft/aspnetcore-build
 ```
