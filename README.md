@@ -15,7 +15,7 @@ cinst sql-server-express
 # JetBrains
 cinst resharper-clt jetbrainstoolbox -y
 # Other
-cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram onedrive notepadplusplus.install libreoffice-fresh thunderbird adobereader
+cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram.portable onedrive notepadplusplus.install libreoffice-fresh thunderbird adobereader
 
 # Docker
 # docker pull microsoft/mssql-server-windows-developer
