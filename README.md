@@ -18,6 +18,7 @@ cinst resharper-clt jetbrainstoolbox -y
 cinst openvpn skype googlechrome 7zip putty teamviewer aimp windjview telegram.portable onedrive notepadplusplus.install libreoffice-fresh thunderbird adobereader
 
 git config --global core.autocrlf true
+git config --global core.safecrlf true
 
 # Docker
 # docker pull microsoft/mssql-server-windows-developer
