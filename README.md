@@ -28,3 +28,6 @@ git config --global core.safecrlf true
 # docker pull microsoft/aspnetcore
 # docker pull microsoft/aspnetcore-build
 ```
+
+
+# Дополнительную информацию и примеры можно найти [здесь](https://github.com/Microsoft/windows-dev-box-setup-scripts)
